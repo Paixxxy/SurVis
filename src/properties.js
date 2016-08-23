@@ -2,7 +2,7 @@
  * Name as used as title for the main page
  * @type {string}
  */
-var title = 'SurVis Literature Collection';
+var title = 'QCA Survey of Visual Summaries';
 
 /**
  * Relative path to the data directory
@@ -54,8 +54,8 @@ var editable = true;
  * @type {{html: string, id: string}}
  */
 var paper = {
-    html: 'Sample literature collection for <b><a href="http://www.visus.uni-stuttgart.de/uploads/tx_vispublications/eurovis14-star.pdf" target="_blank">SurVis</a></b>',
-    id: 'Beck2016Visual'
+    html: 'Sample of papers in the QCA evaluation of the <a href="#" target="_blank">design of visual summaries</a>.',
+    id: null
 };
 
 /**
