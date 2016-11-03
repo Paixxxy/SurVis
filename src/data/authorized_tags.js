@@ -12,6 +12,27 @@ define({
     "type:test_type": {
       "description": "HALLO!"
     },
+    'Data Type:1D data': {
+      "description": "The visual summary summarizes one-dimensional data"
+    }, 
+    'Data Type:2D data': {
+      "description": "The visual summary summarizes two-dimensional data"
+    }, 
+    'Data Type:3D data': {
+      "description": "The visual summary summarizes three-dimensional data"
+    }, 
+    'Data Type:Hierarchical data': {
+      "description": "The visual summary summarizes a data hierarchy"
+    }, 
+    'Data Type:Multidimensional data': {
+      "description": "The visual summary summarizes a multidimensional set of data, generally presented in a flat form"
+    }, 
+    'Data Type:Network data': {
+      "description": "The visual summary summarizes network data, with elements and relationships"
+    }, 
+    'Data Type:Sequence data': {
+      "description": "The visual summary summarizes sequence data, which can include time-series or biological data sequences"
+    }, 
     'Metadata:Redundantly Coded': {
       "description": "Indicates that this paper was coded by two coders"
     },
@@ -22,64 +43,64 @@ define({
       "description": "Indicates that this paper presents a visual summary"
     }, 
     'Purpose:Exploration': {
-      "description": ""
+      "description": "The main purpose of the visual summary is to promote viewer exploration"
     }, 
     'Purpose:Confirmation': {
-      "description": ""
+      "description": "The main purpose of the visual summary is to confirm hypotheses surrounding the data"
     }, 
     'Purpose:Presentation': {
-      "description": ""
+      "description": "The main purpose of the visual summary is to present to the viewer"
     }, 
     'Task Means - Navigation:Browsing': {
-      "description": ""
+      "description": "The visual summary supports looking for an interesting motif (with no a priori knowledge of the motif)"
     }, 
     'Task Means - Navigation:Searching': {
-      "description": ""
+      "description": "The visual summary supports looking for an interesting motif of interest"
     }, 
     'Task Means - Navigation:Elaborating': {
-      "description": ""
+      "description": "The visual summary supports increasing the granularity of the visualization"
     }, 
     'Task Means - Navigation:Summarizing': {
-      "description": ""
+      "description": "The visual summary supports decreasing the granularity of the visualization"
     }, 
     'Data Abstraction:Aggregation': {
-      "description": ""
+      "description": "The visual summary visualizes aggregates of data elements"
     }, 
     'Data Abstraction:Subsampling': {
-      "description": ""
+      "description": "The visual summary visualizes a subsampled selection of data elements"
     }, 
     'Data Abstraction:Filtering': {
-      "description": ""
+      "description": "The visual summary visualizes a filtered subset of data elements"
     }, 
     'Data Abstraction:Projection': {
-      "description": ""
+      "description": "The visual summary visualizes a projection of data elements"
     }, 
     'Task Means - Relation:Comparison': {
-      "description": ""
+      "description": "The visual summary supports seeking similarities between data elements"
     }, 
     'Task Means - Relation:Variations': {
-      "description": ""
+      "description": "The visual summary supports seeking dissimilarities between data elements"
     }, 
     'Task Means - Relation:Relation-Seeking': {
-      "description": ""
+      "description": "The visual summary supports understanding the context of a singular data element"
     }, 
     'Task Characteristics - High-Level:Trends': {
-      "description": ""
+      "description": "The visual summary supports obtaining a trend of attributes across a dependent dimension"
     }, 
     'Task Characteristics - High-Level:Outliers': {
-      "description": ""
+      "description": "The visual summary supports identifying outliers that do not match the modal distribution"
     }, 
     'Task Characteristics - High-Level:Clusters': {
-      "description": ""
+      "description": "The visual summary supports identifying clusters"
     }, 
     'Task Characteristics - High-Level:Frequency': {
-      "description": ""
+      "description": "The visual summary supports identifying frequency of data elements"
     }, 
     'Task Characteristics - High-Level:Distribution': {
-      "description": ""
+      "description": "The visual summary supports characterization of the distribution of data elements"
     }, 
     'Task Characteristics - High-Level:Correlation': {
-      "description": ""
+      "description": "The visual summary supports identification of correlation of data elements"
     }
 	}
 });

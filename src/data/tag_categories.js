@@ -1,13 +1,13 @@
 define({
 	tagCategories: {
-		"type": {
-			"description": "type of the paper"
-		},
+		'Data Type': {
+      "description": "The type of the data visualized within the visual summary"
+    },
     'Has VS': {
-      "description": ""
+      "description": "A determination whether a paper presents a visual summary"
     },
     'Purpose': {
-      "description": ""
+      "description": "Whether the visualization was constructed to support exploration, presentation, or hypothesis confirmation"
     },
     'Task Means - Navigation': {
       "description": "How the visual summary can be used to navigate"
