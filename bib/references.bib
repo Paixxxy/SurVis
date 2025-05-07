@@ -1,42 +1,45 @@
-@inproceedings{aghapour2023pelsi,
+@article{aghapour2023pelsi,
   title={PELSI: Power-efficient layer-switched inference},
+  abstract={Convolutional Neural Networks (CNNs) are now quintessential kernels within embedded computer vision applications deployed in edge devices. Heterogeneous Multi-Processor Systemon-Chips (HMPSoCs) with Dynamic Voltage and Frequency Scaling (DVFS) capable components (CPUs and GPUs) allow for low latency, low-power CNN inference on resource-constrained edge devices when employed efficiently. CNNs comprise several heterogeneous layer types that execute with different degrees of power efficiency on different HMPSoC components at different frequencies. We propose the first framework, PELSI, that exploits this layer-wise power efficiency heterogeneity for power-efficient CPU-GPU layer-switched CNN interference on HMPSoCs.},
   author={Aghapour, Ehsan and Sapra, Dolly and Pimentel, Andy D and Pathania, Anuj},
-  booktitle={2023 IEEE 29th International Conference on Embedded and Real-Time Computing Systems and Applications (RTCSA)},
-  pages={12--17},
+  journal={2023 IEEE 29th International Conference on Embedded and Real-Time Computing Systems and Applications (RTCSA)},
+  keywords={Power-Efficient Inference, Layer-Switched Execution, Dynamic Voltage and Frequency Scaling (DVFS), Edge Computing, Embedded Machine Learning},
   year={2023},
-  organization={IEEE},
+  publisher={IEEE},
   doi={10.1109/RTCSA58653.2023.00011}
 }
+
 
 @article{chung2022layer,
   title={A layer‐wise frequency scaling for a neural processing unit},
   author={Chung, Jaehoon and Kim, HyunMi and Shin, Kyoungseon and Lyuh, Chun-Gi and Cho, Yong Cheol Peter and Han, Jinho and Kwon, Youngsu and Gong, Young-Ho and Chung, Sung Woo},
   journal={ETRI Journal},
-  volume={44},
-  number={5},
-  pages={849--858},
+  abstract={Dynamic voltage frequency scaling (DVFS) has been widely adopted for runtime power management of various processing units. In the case of neural processing units (NPUs), power management of neural network applications is required to adjust the frequency and voltage every layer to consider the power behavior and performance of each layer. Unfortunately, DVFS is inappropriate for layer-wise run-time power management of NPUs due to the long latency of voltage scaling compared with each layer execution time.},
+  keywords={Dynamic Frequency Scaling (DFS), Neural Processing Unit (NPU), Power Efficiency, Layer-wise Optimization, Deep Neural Networks (DNNs)},
   year={2022},
   publisher={Wiley Online Library},
   doi={10.4218/etrij.2022-0094}
 }
 
-@inproceedings{de2019learning,
+@article{de2019learning,
   title={Learning to infer: RL-based search for DNN primitive selection on Heterogeneous Embedded Systems},
   author={De Prado, Miguel and Pazos, Nuria and Benini, Luca},
-  booktitle={2019 Design, Automation \& Test in Europe Conference \& Exhibition (DATE)},
-  pages={1409--1414},
+  abstract={Deep Learning is increasingly being adopted by industry for computer vision applications running on embedded devices. While Convolutional Neural Networks’ accuracy has achieved a mature and remarkable state, inference latency and throughput are a major concern especially when targeting low-cost and low-power embedded platforms. CNNs’ inference latency may become a bottleneck for Deep Learning adoption by industry, as it is a crucial specification for many real-time processes. Furthermore, deployment of CNNs across heterogeneous platforms presents major compatibility issues due to vendor-specific technology and acceleration libraries.},
+  journal={2019 Design, Automation \& Test in Europe Conference \& Exhibition (DATE)},
+  keywords={Heterogeneous embedded systems, Deep learning, Reinforcement learning, DNN primitive selection, Inference optimization},
   year={2019},
-  organization={IEEE},
+  publisher={IEEE},
   doi={10.23919/DATE.2019.8714959}
 }
 
-@inproceedings{hou2024cpm,
+@article{hou2024cpm,
   title={CPM: A Cross-layer Power Management Facility to Enable QoS-Aware AIoT Systems},
   author={Hou, Xiaofeng and Tang, Peng and Xu, Tongqiao and Xu, Cheng and Li, Chao and Guo, Minyi},
-  booktitle={2024 IEEE/ACM 32nd International Symposium on Quality of Service (IWQoS)},
-  pages={1--10},
+  journal={2024 IEEE/ACM 32nd International Symposium on Quality of Service (IWQoS)},
+  abstract={With the rapid progress and widespread adoption of AI technology, integrating powerful DNN models into AIoT devices in close proximity to users has become increasingly appealing. However, a significant challenge is that it is not easy to achieve the stringent Quality of Service (QoS) standards, especially in terms of real-time latency, demanded by the computationally intensive DNN workloads in energy-limited AIoT environments.},
+  keywords={AIoT systems, Cross-layer power management, Dynamic Voltage and Frequency Scaling (DVFS), Quality of Service (QoS), Deep Neural Networks (DNN)},
   year={2024},
-  organization={IEEE},
+  publisher={IEEE},
   doi={10.1109/IWQoS61813.2024.10682859}
 }
 
@@ -44,49 +47,54 @@
   title={Empirical Power-performance Analysis of Layer-wise CNN Inference on Single Board Computers},
   author={Ng, Kuan Yi and Babai, Aalaa MA and Tanimoto, Teruo and Kawakami, Satoshi and Inoue, Koji},
   journal={Journal of Information Processing},
-  volume={31},
-  pages={478--494},
+  abstract={This paper analyzes the impact of input sparsity and DFS/DVFS configurations for single-board computers on the execution time, power, and energy of each VGG16 layer as the first step towards efficient CNN inference on single-board computers. For this purpose, we first develop a power and execution time measurement environment and perform experiments using Raspberry Pi 4 and NVIDIA Jetson Nano. Our results show that clock frequency strongly correlates with execution time and power.},
+  keywords={Single board computers, Convolutional Neural Networks (CNN), Dynamic Frequency and Voltage Scaling (DFS/DVFS), Input sparsity, Power-performance analysis},
   year={2023},
   publisher={Information Processing Society of Japan},
   doi={10.2197/ipsjjip.31.478}
 }
 
-@inproceedings{wu2023moc,
+@article{wu2023moc,
   title={Moc: Multi-objective mobile cpu-gpu co-optimization for power-efficient dnn inference},
   author={Wu, Yushu and Gong, Yifan and Zhan, Zheng and Yuan, Geng and Li, Yanyu and Wang, Qi and Wu, Chao and Wang, Yanzhi},
-  booktitle={2023 IEEE/ACM International Conference on Computer Aided Design (ICCAD)},
-  pages={1--10},
+  journal={2023 IEEE/ACM International Conference on Computer Aided Design (ICCAD)},
+  abstract={With the emergence of DNN applications on mobile devices, plenty of attention has been attracted to their optimization. However, the impact of DNN inference tasks on device power consumption is still a lack of comprehensive study. In this work, we propose MOC, a Multi-Objective deep reinforcement learning-assisted DNN inference stage-adaptive CPU-GPU Cooptimization approach.},
+  keywords={Mobile devices, CPU-GPU co-optimization, Deep reinforcement learning, DNN inference, Multi-objective optimization},
   year={2023},
-  organization={IEEE},
+  publisher={IEEE},
   doi={10.1109/ICCAD57390.2023.10323882}
 }
 
-@inproceedings{xun2019incremental,
+@article{xun2019incremental,
   title={Incremental training and group convolution pruning for runtime dnn performance scaling on heterogeneous embedded platforms},
   author={Xun, Lei and Tran-Thanh, Long and Al-Hashimi, Bashir M and Merrett, Geoff V},
-  booktitle={2019 ACM/IEEE 1st Workshop on Machine Learning for CAD (MLCAD)},
-  pages={1--6},
+  journal={2019 ACM/IEEE 1st Workshop on Machine Learning for CAD (MLCAD)},
+  abstract={Inference for Deep Neural Networks is increasingly being executed locally on mobile and embedded platforms due to its advantages in latency, privacy and connectivity. Since modern System on Chips typically execute a combination of different and dynamic workloads concurrently, it is challenging to consistently meet inference time/energy budget at runtime because of the local computing resources available to the DNNs vary considerably. To address this challenge, a variety of dynamic DNNs were proposed. However, these works have significant memory overhead, limited runtime recoverable compression rate and narrow dynamic ranges of performance scaling. In this paper, we present a dynamic DNN using incremental training and group convolution pruning.},
+  keywords={Embedded deep learning, Dynamic deep neural network, Runtime performance trade-off, Incremental training, Group convolution pruning},
   year={2019},
-  organization={IEEE},
+  publisher={IEEE},
   doi={10.1109/MLCAD48534.2019.9142052}
 }
 
-@inproceedings{xun2020optimising,
+@article{xun2020optimising,
   title={Optimising resource management for embedded machine learning},
   author={Xun, Lei and Tran-Thanh, Long and Al-Hashimi, Bashir M and Merrett, Geoff V},
-  booktitle={2020 Design, Automation \& Test in Europe Conference \& Exhibition (DATE)},
-  pages={1556--1561},
+  journal={2020 Design, Automation \& Test in Europe Conference \& Exhibition (DATE)},
+  abstract={Machine learning inference is increasingly being executed locally on mobile and embedded platforms, due to the clear advantages in latency, privacy and connectivity. In this paper, we present approaches for online resource management in heterogeneous multi-core systems and show how they can be applied to optimise the performance of machine learning workloads. Performance can be defined using platform-dependent (e.g. speed, energy) and platform-independent (accuracy, confidence) metrics.},
+  keywords={Embedded machine learning, Online resource management, Dynamic deep neural network, Runtime resource management, Performance trade-off},
   year={2020},
-  organization={IEEE},
+  publisher={IEEE},
   doi={10.23919/DATE48585.2020.9116235}
 }
 
-@inproceedings{zhang2023e4,
+@article{zhang2023e4,
   title={E4: Energy-Efficient Early-Exit DNN Inference Framework for Edge Video Analytics},
   author={Zhang, Ziyang and Zhao, Yang and Liu, Jie},
-  booktitle={Proceedings of the 21st ACM Conference on Embedded Networked Sensor Systems},
-  pages={512--513},
+  journal={Proceedings of the 21st ACM Conference on Embedded Networked Sensor Systems},
+  abstract={Deep neural networks (DNNs) are becoming extremely popular in video analytics applications at the edge. However, compute intensive DNNs pose new challenges to achieve energy-efficient DNN inference on resource-constrained edge devices. In this paper, we propose E4, an energy-efficient DNN inference framework for edge video analytics. First, E4 analyzes video frame complexity by employing an attention-based cascade module that automatically determines DNN exit points. Second, E4’s just-in-time (JIT) profiler leverages coordinate descent search to co-optimize the CPU and GPU clock frequencies for each layer before the DNN exit point.},
+  keywords={Edge video analytics, Dynamic Voltage and Frequency Scaling (DVFS), Early-exit DNN, Energy efficiency, Deep learning},
   year={2023},
+  publisher={IEEE},
   doi={10.1145/3625687.3628383}
 }
 
@@ -94,9 +102,8 @@
   title={Dvfo: Learning-based dvfs for energy-efficient edge-cloud collaborative inference},
   author={Zhang, Ziyang and Zhao, Yang and Li, Huan and Lin, Changyao and Liu, Jie},
   journal={IEEE Transactions on Mobile Computing},
-  volume={23},
-  number={10},
-  pages={9042--9059},
+  abstract={Due to limited resources on edge and different characteristics of deep neural network (DNN) models, it is a big challenge to optimize DNN inference performance in terms of energy consumption and end-to-end latency. In addition to dynamic voltage frequency scaling (DVFS) technique, edge-cloud architecture provides a collaborative approach for efficient DNN inference.However, current edge-cloud collaborative inference methods have not optimized various compute resources on edge devices. Thus, we propose DVFO, a novel DVFS-enabled edge-cloud collaborative inference framework, which co-optimizes DVFS and offloading parameters via deep reinforcement learning (DRL).},
+  keywords={Edge computing, DVFS technology, Collaborative inference, Deep reinforcement learning, Edge-cloud collaboration},
   year={2024},
   publisher={IEEE},
   doi={10.1109/TMC.2024.3357218}
